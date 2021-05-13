@@ -1,0 +1,814 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Deve validar as restricoes",
+        "description": "",
+        "id": "simular-una-restriccion-al-cpf;deve-validar-as-restricoes;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 865923652,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que deseo ver si un CPF tiene restricoes",
+            "match": {
+              "location": "PruebasSteps.que_deseo_ver_si_un_CPF_tiene_restricoes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 7498410,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso el numero \"97093236014\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "97093236014",
+                  "offset": 19
+                }
+              ],
+              "location": "PruebasSteps.ingreso_el_numero(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3273094895,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cO CPF 9[7093236014] tem problema\u003e but was:\u003cO CPF 9[999999999] tem problema\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat uy.ce.jmadrid.PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(PruebasSteps.java:50)\n\tat ✽.Então recibo el mensaje \"\"O CPF 97093236014 tem problema\"\"(simular_cpf.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "recibo el mensaje \"\"O CPF 97093236014 tem problema\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "97093236014",
+                  "offset": 26
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(String,int,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionales"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Deve validar as restricoes",
+        "description": "",
+        "id": "simular-una-restriccion-al-cpf;deve-validar-as-restricoes;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 173236,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que deseo ver si un CPF tiene restricoes",
+            "match": {
+              "location": "PruebasSteps.que_deseo_ver_si_un_CPF_tiene_restricoes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 125426,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso el numero \"60094146012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60094146012",
+                  "offset": 19
+                }
+              ],
+              "location": "PruebasSteps.ingreso_el_numero(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 161379784,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cO CPF 9[7093236014] tem problema\u003e but was:\u003cO CPF 9[999999999] tem problema\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat uy.ce.jmadrid.PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(PruebasSteps.java:50)\n\tat ✽.Então recibo el mensaje \"\"O CPF 60094146012 tem problema\"\"(simular_cpf.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "recibo el mensaje \"\"O CPF 60094146012 tem problema\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "60094146012",
+                  "offset": 26
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(String,int,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionales"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Deve validar as restricoes",
+        "description": "",
+        "id": "simular-una-restriccion-al-cpf;deve-validar-as-restricoes;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 35156,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que deseo ver si un CPF tiene restricoes",
+            "match": {
+              "location": "PruebasSteps.que_deseo_ver_si_un_CPF_tiene_restricoes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 65049,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso el numero \"84809766080\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "84809766080",
+                  "offset": 19
+                }
+              ],
+              "location": "PruebasSteps.ingreso_el_numero(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 111549354,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cO CPF 9[7093236014] tem problema\u003e but was:\u003cO CPF 9[999999999] tem problema\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat uy.ce.jmadrid.PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(PruebasSteps.java:50)\n\tat ✽.Então recibo el mensaje \"\"O CPF 84809766080 tem problema\"\"(simular_cpf.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "recibo el mensaje \"\"O CPF 84809766080 tem problema\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "84809766080",
+                  "offset": 26
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(String,int,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionales"
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Deve validar as restricoes",
+        "description": "",
+        "id": "simular-una-restriccion-al-cpf;deve-validar-as-restricoes;;5",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 241395,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que deseo ver si un CPF tiene restricoes",
+            "match": {
+              "location": "PruebasSteps.que_deseo_ver_si_un_CPF_tiene_restricoes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 149240,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso el numero \"62648716050\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "62648716050",
+                  "offset": 19
+                }
+              ],
+              "location": "PruebasSteps.ingreso_el_numero(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 74644535,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cO CPF 9[7093236014] tem problema\u003e but was:\u003cO CPF 9[999999999] tem problema\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat uy.ce.jmadrid.PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(PruebasSteps.java:50)\n\tat ✽.Então recibo el mensaje \"\"O CPF 62648716050 tem problema\"\"(simular_cpf.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "recibo el mensaje \"\"O CPF 62648716050 tem problema\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "62648716050",
+                  "offset": 26
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(String,int,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionales"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Deve validar as restricoes",
+        "description": "",
+        "id": "simular-una-restriccion-al-cpf;deve-validar-as-restricoes;;6",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 34736,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que deseo ver si un CPF tiene restricoes",
+            "match": {
+              "location": "PruebasSteps.que_deseo_ver_si_un_CPF_tiene_restricoes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 88361,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso el numero \"26276298085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "26276298085",
+                  "offset": 19
+                }
+              ],
+              "location": "PruebasSteps.ingreso_el_numero(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 64171671,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cO CPF 9[7093236014] tem problema\u003e but was:\u003cO CPF 9[999999999] tem problema\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat uy.ce.jmadrid.PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(PruebasSteps.java:50)\n\tat ✽.Então recibo el mensaje \"\"O CPF 26276298085 tem problema\"\"(simular_cpf.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "recibo el mensaje \"\"O CPF 26276298085 tem problema\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "26276298085",
+                  "offset": 26
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(String,int,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionales"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Deve validar as restricoes",
+        "description": "",
+        "id": "simular-una-restriccion-al-cpf;deve-validar-as-restricoes;;7",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 28843,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que deseo ver si un CPF tiene restricoes",
+            "match": {
+              "location": "PruebasSteps.que_deseo_ver_si_un_CPF_tiene_restricoes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 48563,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso el numero \"01317496094\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01317496094",
+                  "offset": 19
+                }
+              ],
+              "location": "PruebasSteps.ingreso_el_numero(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 104182478,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cO CPF 9[7093236014] tem problema\u003e but was:\u003cO CPF 9[999999999] tem problema\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat uy.ce.jmadrid.PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(PruebasSteps.java:50)\n\tat ✽.Então recibo el mensaje \"\"O CPF 01317496094 tem problema\"\"(simular_cpf.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "recibo el mensaje \"\"O CPF 01317496094 tem problema\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "01317496094",
+                  "offset": 26
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(String,int,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionales"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Deve validar as restricoes",
+        "description": "",
+        "id": "simular-una-restriccion-al-cpf;deve-validar-as-restricoes;;8",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 73424,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que deseo ver si un CPF tiene restricoes",
+            "match": {
+              "location": "PruebasSteps.que_deseo_ver_si_un_CPF_tiene_restricoes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 87031,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso el numero \"55856777050\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55856777050",
+                  "offset": 19
+                }
+              ],
+              "location": "PruebasSteps.ingreso_el_numero(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 57190319,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cO CPF 9[7093236014] tem problema\u003e but was:\u003cO CPF 9[999999999] tem problema\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat uy.ce.jmadrid.PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(PruebasSteps.java:50)\n\tat ✽.Então recibo el mensaje \"\"O CPF 55856777050 tem problema\"\"(simular_cpf.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "recibo el mensaje \"\"O CPF 55856777050 tem problema\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "55856777050",
+                  "offset": 26
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(String,int,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionales"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Deve validar as restricoes",
+        "description": "",
+        "id": "simular-una-restriccion-al-cpf;deve-validar-as-restricoes;;9",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 28185,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que deseo ver si un CPF tiene restricoes",
+            "match": {
+              "location": "PruebasSteps.que_deseo_ver_si_un_CPF_tiene_restricoes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 45303,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso el numero \"19626829001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "19626829001",
+                  "offset": 19
+                }
+              ],
+              "location": "PruebasSteps.ingreso_el_numero(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 65957733,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cO CPF 9[7093236014] tem problema\u003e but was:\u003cO CPF 9[999999999] tem problema\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat uy.ce.jmadrid.PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(PruebasSteps.java:50)\n\tat ✽.Então recibo el mensaje \"\"O CPF 19626829001 tem problema\"\"(simular_cpf.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "recibo el mensaje \"\"O CPF 19626829001 tem problema\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "19626829001",
+                  "offset": 26
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(String,int,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionales"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Deve validar as restricoes",
+        "description": "",
+        "id": "simular-una-restriccion-al-cpf;deve-validar-as-restricoes;;10",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 36026,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que deseo ver si un CPF tiene restricoes",
+            "match": {
+              "location": "PruebasSteps.que_deseo_ver_si_un_CPF_tiene_restricoes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 44719,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso el numero \"24094592008\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24094592008",
+                  "offset": 19
+                }
+              ],
+              "location": "PruebasSteps.ingreso_el_numero(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 188275182,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cO CPF 9[7093236014] tem problema\u003e but was:\u003cO CPF 9[999999999] tem problema\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat uy.ce.jmadrid.PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(PruebasSteps.java:50)\n\tat ✽.Então recibo el mensaje \"\"O CPF 24094592008 tem problema\"\"(simular_cpf.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "recibo el mensaje \"\"O CPF 24094592008 tem problema\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "24094592008",
+                  "offset": 26
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(String,int,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionales"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Deve validar as restricoes",
+        "description": "",
+        "id": "simular-una-restriccion-al-cpf;deve-validar-as-restricoes;;11",
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 28986,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que deseo ver si un CPF tiene restricoes",
+            "match": {
+              "location": "PruebasSteps.que_deseo_ver_si_un_CPF_tiene_restricoes()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 48675,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "ingreso el numero \"58063164083\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "58063164083",
+                  "offset": 19
+                }
+              ],
+              "location": "PruebasSteps.ingreso_el_numero(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 92096398,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003cO CPF 9[7093236014] tem problema\u003e but was:\u003cO CPF 9[999999999] tem problema\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:115)\n\tat org.junit.Assert.assertEquals(Assert.java:144)\n\tat uy.ce.jmadrid.PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(PruebasSteps.java:50)\n\tat ✽.Então recibo el mensaje \"\"O CPF 58063164083 tem problema\"\"(simular_cpf.feature:12)\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "recibo el mensaje \"\"O CPF 58063164083 tem problema\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "58063164083",
+                  "offset": 26
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "PruebasSteps.recebo_a_mensagem_O_CPF_tem_problema(String,int,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionales"
+          }
+        ]
+      }
+    ],
+    "name": "Simular una Restriccion al CPF",
+    "description": "\nComo un Associado\nMe gustaria saber si un CPF tiene Restricciones\nPara eu ver a tabela de resultado com Mes e Valor",
+    "id": "simular-una-restriccion-al-cpf",
+    "keyword": "Funcionalidade",
+    "uri": "simular_cpf.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@funcionales"
+      }
+    ]
+  }
+]
